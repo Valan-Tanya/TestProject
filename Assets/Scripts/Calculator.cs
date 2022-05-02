@@ -6,7 +6,21 @@ using UnityEngine.UI;
 
 public class Calculator : MonoBehaviour
 {
-    public Text Text1;
-    public string calc1;
-    public string x1;
-}
+    public Text result;
+    public InputField x;
+    public InputField y;
+    string oper;
+      
+    
+    
+    public void Click ()
+    {
+        Debug.Log(000);
+        if (gameObject.text =="*" )
+        {
+          
+        }
+       
+        
+        }
+    }
